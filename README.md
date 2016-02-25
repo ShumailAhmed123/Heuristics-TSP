@@ -1,7 +1,7 @@
 # Held-Karp
-This repository contains 2 implementations of the Held-Karp algorithms. This algorithm is a brute search algorithm which belong to the family of the "branch and bound" ones.
+This repository contains 2 implementations of the Held-Karp algorithm. This algorithm is a brute search algorithm which belong to the family of the "branch and bound" ones.
 
-An algorithm that belongs to the "Branch and bound" is usually solve in problems where we want to obtain the best solution given a set of possible solutions. The algorithm will evaluate all the possible alternatives, keeping the best one and using it as a threshold to improve.
+An algorithm that belongs to the "Branch and bound" is used to solve problems where we could obtain an optimal solution given a set of possible solutions. The algorithm will evaluate all the possible alternatives, keeping the best one and using it as a threshold to improve.
 
 The problem in which I used this algorithm is the following:
 
