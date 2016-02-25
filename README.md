@@ -11,9 +11,9 @@ The repository contains:
 
   A) An example of a distance matrix.
   
-  B) First implementation of the algorithm, which allow the user to see all the posibilities with their distances.
+  B) First implementation of the algorithm, which allow the user to see all the posibilities with their distances. ("HK_Paths")
   
-  C) Second implementation of the algorithm, which do not show all the options, but is quite more efficient.
+  C) Second implementation of the algorithm, which do not show all the options, but is quite more efficient. ("HK_Optimal")
 
 ### To which problems could it be applied?
 The problem in which I used this algorithm is the following:
