@@ -18,7 +18,7 @@ The repository contains:
 ### To which problems could it be applied?
 The problem in which I used this algorithm is the following:
 
-Suppose you have several points on a map, and each point is separated from the other ones a distance, different from each point. We can built a matrix of distances, from each point to the rest of them. Now suppose that this points on the map are locations within a city, and that the problem is to visit every point starting for the first one, without repeating anyone, and returning to the original location at the end. This problem is called "Travelling Salesman Problem" for obvious reasons.
+Suppose you have several locations in a city, being each one separated from the other ones a known distance, different from each location. We can built a distances matrix to store all the distances between any pair of points. Now suppose that we want to visit every different location starting at a specific point, without repeating any of the locations, and returning to the starting point at the end (completing a cycle). This problem is called "Travelling Salesman Problem" for obvious reasons.
 
 ### Special considerations:
 * It is important to recall that the the distance A-B could be different from the distance B-A (imagine a one-way street, going in one direction is shorter that the opposite).
