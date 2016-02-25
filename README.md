@@ -13,5 +13,7 @@ Suppose you have several points on a map, and each point is separated from the o
 The repository contains:
 
   A) An example of a distance matrix.
+  
   B) First implementation of the algorithm, which allow the user to see all the posibilities with their distances.
+  
   C) Second implementation of the algorithm, which do not show all the options, but is quite more efficient.
