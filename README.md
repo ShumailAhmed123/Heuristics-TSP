@@ -18,7 +18,9 @@ The repository contains:
 ### To which problems could it be applied?
 The problem in which I used this algorithm is the following:
 
-Suppose you have several locations in a city, being each one separated from the other ones a known distance, different from each location. We can built a distances matrix to store all the distances between any pair of points. Now suppose that we want to visit every different location starting at a specific point, without repeating any of the locations, and returning to the starting point at the end (completing a cycle). This problem is called <a href="https://en.wikipedia.org/wiki/Travelling_salesman_problem">Travelling Salesman Problem</a> for obvious reasons.
+Suppose you have several locations in a city, being each one separated from the other ones a known distance, different from each location. We can built a distances matrix to store all the distances between any pair of points. Now suppose that we want to visit every different location starting at a specific point, without repeating any of the locations, and returning to the starting point at the end (completing a cycle). This problem is called <a href="https://en.wikipedia.org/wiki/Travelling_salesman_problem">Travelling Salesman Problem</a>.
+
+<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Branchbound.gif">
 
 ### Special considerations:
 * It is important to recall that the the distance A-B could be different from the distance B-A (imagine a one-way street, going in one direction is shorter that the opposite).
