@@ -24,5 +24,7 @@ Suppose you have several locations in a city, being each one separated from the 
 
 ### Special considerations:
 * It is important to recall that <b>the distance A-B could be different from the distance B-A</b> (imagine a one-way street, going in one direction is shorter that the opposite).
+<br><br>
 * <b>It does not matter which is the starting point,</b> because at the end the cycle will cover all the locations, the result would be the same starting at any othe location.
+<br><br>
 * <b>This problem needs big computational capacity.</b> With each new location, the time to calculate the optimal solution increase exponentially (with more that 12 locations could be a nightmare).
