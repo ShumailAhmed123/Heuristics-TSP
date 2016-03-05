@@ -1,9 +1,9 @@
 # Travelling Salesman Problem
 
 ### What is it?
-It is a problem in which we need to complete a cycle passing through a set of points, being the distance between any pair of points known, without repeating any point and returning to the origin once all points has been visited.
+It is a problem in which we need to complete a cycle passing through a set of points, being the distance between any pair of points known, without repeating any point and returning to the origin once all points have been visited.
 
-A clear example is the <a href="https://en.wikipedia.org/wiki/Travelling_salesman_problem">Travelling Salesman Problem</a>: Suppose there are several locations in a city that need to be visited, being each one separated from the other ones a known distance (that we can store in a distance matrix). The objective is to complete the cycle following the optimal path, the one which minimize the traversed distance.
+A clear example is the <a href="https://en.wikipedia.org/wiki/Travelling_salesman_problem">Travelling Salesman Problem</a>: Suppose there are several locations in a city that need to be visited, having the distances of every pair of points stored in a matrix. The objective is to complete the cycle following the optimal path, the one which minimize the traversed distance.
 
 In order to solve this problem, I have used the Held-Karp algorithm.
 
