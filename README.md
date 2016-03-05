@@ -1,9 +1,11 @@
-# Held-Karp
+# Travelling Salesman Problem
 
 ### What is it?
-The Held-Karp algorithm is a brute search algorithm which belong to the family of the "branch and bound" ones.
+It is a problem in which we need to complete a cycle passing through a set of points, being each of them separated from each others a know distance, without repeating any point and returning to the origin once all points has been visited.
 
-An algorithm that belongs to the <a href="https://en.wikipedia.org/wiki/Branch_and_bound">Branch and bound</a> family is used to solve problems where we could obtain an optimal solution given a set of possible solutions. The algorithm will evaluate all the possible alternatives, keeping the best one and using it as a threshold to improve.
+A clear example is the <a href="https://en.wikipedia.org/wiki/Travelling_salesman_problem">Travelling Salesman Problem</a>: Suppose there are several locations in a city that need to be visited, being each one separated from the other ones a known distance (that we can store in a distance matrix). The objective is to complete the cycle following the optimal path, the one which minimize the traversed distance.
+
+In order to solve this problem, I have used the Held-Karp algorithm.
 
 ### What is in the repository? 
 
@@ -15,13 +17,12 @@ The repository contains:
   <br>
   <b>C) "HK_Optimal":</b> Second implementation of the algorithm, which do not show all the options, but is more efficient.
 
-### To which problems could it be applied?
-The problem in which I used this algorithm is the following:
+### How is the algorithm?
+The Held-Karp algorithm is a brute search algorithm which belong to the family of the "branch and bound" ones.
 
-Suppose you have several locations in a city, being each one separated from the other ones a known distance, different from each location. We can built a distances matrix to store all the distances between any pair of points. Now suppose that we want to visit every different location starting at a specific point, without repeating any of the locations, and returning to the starting point at the end (completing a cycle). This problem is called <a href="https://en.wikipedia.org/wiki/Travelling_salesman_problem">Travelling Salesman Problem</a>.
+An algorithm that belongs to the <a href="https://en.wikipedia.org/wiki/Branch_and_bound">Branch and bound</a> family is used to solve problems where we could obtain an optimal solution given a set of possible solutions. The algorithm will evaluate all the possible alternatives, keeping the best one and using it as a threshold to improve.
 
-
-This would be an example of the use of Held-Karp to this problem (brute-force branch and bound algorithm):
+This would be an example of the use of Held-Karp to this problem:
 <br><br>
 <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Branchbound.gif">
 
