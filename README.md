@@ -7,6 +7,15 @@ A clear example is the <a href="https://en.wikipedia.org/wiki/Travelling_salesma
 
 In order to solve this problem, I have used the Held-Karp algorithm.
 
+### How is the algorithm?
+The Held-Karp algorithm is a brute search algorithm which belong to the family of the "branch and bound" ones.
+
+An algorithm that belongs to the <a href="https://en.wikipedia.org/wiki/Branch_and_bound">Branch and bound</a> family is used to solve problems where we could obtain an optimal solution given a set of possible solutions. The algorithm will evaluate all the possible alternatives, keeping the best one and using it as a threshold to improve.
+
+This would be an example of the use of Held-Karp to this problem:
+<br><br>
+<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Branchbound.gif">
+
 ### What is in the repository? 
 
 The repository contains an example of an input file, and 2 variants of the Held-Karp algorithm:
@@ -19,15 +28,6 @@ First implementation of the algorithm, which allow us to see all the posibilitie
 
 #### 3. HK_Optimal.java
 Final implementation of the algorithm, which do not show all the possible routes, just the optimal one. It is more efficient than the previous implementation.
-
-### How is the algorithm?
-The Held-Karp algorithm is a brute search algorithm which belong to the family of the "branch and bound" ones.
-
-An algorithm that belongs to the <a href="https://en.wikipedia.org/wiki/Branch_and_bound">Branch and bound</a> family is used to solve problems where we could obtain an optimal solution given a set of possible solutions. The algorithm will evaluate all the possible alternatives, keeping the best one and using it as a threshold to improve.
-
-This would be an example of the use of Held-Karp to this problem:
-<br><br>
-<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Branchbound.gif">
 
 ### Special considerations:
 * It is important to recall that <b>the distance A-B could be different from the distance B-A</b> (imagine a one-way street, going in one direction is shorter that the opposite).
