@@ -9,13 +9,16 @@ In order to solve this problem, I have used the Held-Karp algorithm.
 
 ### What is in the repository? 
 
-The repository contains:
+The repository contains an example of an input file, and 2 variants of the Held-Karp algorithm:
 
-  <b>A) "Example":</b> An example of a distance matrix.
-  <br>
-  <b>B) "HK_Paths":</b> First implementation of the algorithm, which allow us all the posibilities with their distances.
-  <br>
-  <b>C) "HK_Optimal":</b> Second implementation of the algorithm, which do not show all the options, but is more efficient.
+#### 1. Example.txt
+It is an example of a distance distance, where the different rows and columns refers to different locations. The main diagonal is always zero because the distance from one location to itself is always zero. Its important to know that the distance A-B could be different from the distance B-A.
+
+#### 2. HK_Paths.java
+First implementation of the algorithm, which allow us to see all the posibilities with their distances. It is less eficient than the next implementation, because it needs to store all the paths with their corresponding distances to print them at the end of the process.
+
+#### 3. HK_Optimal.java
+Final implementation of the algorithm, which do not show all the possible routes, just the optimal one. It is more efficient than the previous implementation.
 
 ### How is the algorithm?
 The Held-Karp algorithm is a brute search algorithm which belong to the family of the "branch and bound" ones.
