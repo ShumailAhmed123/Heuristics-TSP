@@ -5,7 +5,7 @@ It is a problem in which we need to complete a cycle passing through a set of po
 
 A clear example is the <a href="https://en.wikipedia.org/wiki/Travelling_salesman_problem">Travelling Salesman Problem</a>: Suppose there are several locations in a city that need to be visited, having the distances of every pair of points stored in a matrix. The objective is to complete the cycle following the optimal path, the one which minimize the traversed distance.
 
-In order to solve this problem, I have used the Held-Karp algorithm.
+In order to solve this problem, I have used the <b>Held-Karp algorithm</b>.
 
 ### How is the algorithm?
 The Held-Karp algorithm is a brute search algorithm which belong to the family of the "branch and bound" ones.
